@@ -2,7 +2,7 @@ def palindromo(text):
 
     text_lower = text.lower()
     text_nospace = text_lower.replace(" ", "")
-    return text_nospace == text_min[::-1]
+    return text_nospace == text_nospace[::-1]
 
 
 frase_1 = "Dabale arroz a la zorra el abad"
